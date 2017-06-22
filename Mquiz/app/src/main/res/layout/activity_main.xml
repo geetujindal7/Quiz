@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hi.mquiz.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write your name"
+        style="@style/headerName"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENERAL KNOWLEDGE-"
+        android:layout_gravity="center"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions-"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="** Total no of questions is 7-"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="** Total marks is 10-"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="** 1,2,3,4 contains one marks each-"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="** 5,6,7 contains two marks each-"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALL THE BEST"
+        android:layout_gravity="center"
+        style="@style/header"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. The largest copper producing country in the World is-                                          1mark"
+        style="@style/headerName"
+        />
+        <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chile"
+            android:id="@+id/Quiz1a_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Russia"
+            android:id="@+id/Quiz1b_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="South Africa"
+            android:id="@+id/Quiz1c_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China"
+            android:id="@+id/Quiz1d_text_view"
+            style="@style/headerName"
+            android:layout_marginBottom="20dp"/>
+        </RadioGroup>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. What is the missing number in this series?   8 2 14 6 11 ? 14 6 18 12                      1 mark"
+        style="@style/headerName"
+        />
+        <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:id="@+id/Quiz2a_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:id="@+id/Quiz2b_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:id="@+id/Quiz2c_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/Quiz2d_text_view"
+            style="@style/headerName"
+            android:layout_marginBottom="20dp"/>
+        </RadioGroup>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. x% of y is y% of?                                                         1 mark"
+        style="@style/headerName"
+        />
+        <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x/y"
+            android:id="@+id/Quiz3a_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2y"
+            android:id="@+id/Quiz3b_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:id="@+id/Quiz3c_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="can't be determined"
+            style="@style/headerName"
+            android:id="@+id/Quiz3d_text_view"
+            android:layout_marginBottom="20dp"/>
+        </RadioGroup>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. SCD, TEF, UGH, ____, WKL                         1 mark"
+        style="@style/headerName"
+        />
+        <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CMN"
+            android:id="@+id/Quiz5a_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GHJ"
+            android:id="@+id/Quiz5b_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIJ"
+            android:id="@+id/Quiz5c_text_view"
+            style="@style/headerName"/>
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUY"
+            android:id="@+id/Quiz5d_text_view"
+            style="@style/headerName"
+            android:layout_marginBottom="20dp"/>
+        </RadioGroup>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Which 2 countries has highest population?               2 mark"
+        style="@style/headerName" />
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="China"
+        android:id="@+id/Quiz4a_text_view"
+        style="@style/headerName"/>
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:id="@+id/Quiz4b_text_view"
+        style="@style/headerName"/>
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Russia"
+        android:id="@+id/Quiz4c_text_view"
+        style="@style/headerName"/>
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japan"
+        android:id="@+id/Quiz4d_text_view"
+        style="@style/headerName"
+        android:layout_marginBottom="20dp"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.Present President of India       2 marks"
+        style="@style/headerName"/>
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="your answer"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/edit1_text" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. '.MOV' extension refers usually to what kind of file?          2 mark"
+        style="@style/headerName"/>
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="your answer"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/edit2_text" />
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submit"/>
+</LinearLayout>
+</ScrollView>
